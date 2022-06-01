@@ -3,8 +3,13 @@
 using namespace std;
 
 // Function-like Macro definition
-#define min(a, b) (((a) < (b)) ? (a) : (b))
-//if a less then b then return a else return b
+#define min(a, b) (((a) < (b)) ? (a) : (b)) // this line is called Ternary operation
+// meanining of above line==>if a less then b then return a else return b
+//we can write the avove line in another formate which is mentioned below
+//if(a<b)
+//return a;
+//else
+//return b;
 
 // Driver Code
 int main()
